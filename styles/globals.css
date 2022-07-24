@@ -1,0 +1,40 @@
+/* Box sizing  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+p {
+  margin: 0;
+}
+
+/* Body default */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #f6f7fc;
+  color: #23314c;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Inherit fonts for bottons */
+button {
+  font: inherit;
+}
+
+/* Remove all animation, transitions */
+*,
+*::after,
+*::before {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 500ms !important;
+}

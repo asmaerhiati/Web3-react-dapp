@@ -1,0 +1,20 @@
+.button {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(109,129,254,0.6) 0%, rgba(109,129,254,1) 100%);
+
+  border-radius: 100px;
+  box-shadow: 0px 4px 52px rgba(109, 129, 254, 0.4);
+  height: 40px;
+  color: #f6f7fc;
+  font-size: 20px;
+}
+
+.button:hover {
+  background: linear-gradient(0deg, rgba(109,129,254,0.4) 0%, rgba(109,129,254,0.8) 100%);
+  box-shadow: 0px 6px 20px rgba(109, 129, 254, 0.5);
+  color: rgba(35, 49, 76, 0.7);
+  cursor: pointer;
+}
