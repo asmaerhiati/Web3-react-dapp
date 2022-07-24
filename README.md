@@ -12,7 +12,7 @@ And !!! get YOUR information {Account, Balance, Network}
 
 ![This is an image](images/image3.jpg)
 
-For a better view [Click Here](https://www.figma.com/proto/ys912Kj5YNZa1Lf1GCNhnL/Web3-react-dapp?page-id=0%3A1&node-id=31%3A116&starting-point-node-id=31%3A116)
+I use [Figma](https://www.figma.com/) as a designing tool so for a better view [Click Here](https://www.figma.com/proto/ys912Kj5YNZa1Lf1GCNhnL/Web3-react-dapp?page-id=0%3A1&node-id=31%3A116&starting-point-node-id=31%3A116)
 
 ## Setup the environment
 
