@@ -14,7 +14,7 @@ And !!! get YOUR information {Account, Balance, Network}
 
 I use [Figma](https://www.figma.com/) as a designing tool.
 
-For easy acces [Click Here](https://62ddbe42e705d129d3a5680d--warm-pudding-1cdfc8.netlify.app/).
+For easy acces [Click Here](https://web3-react-dapp.netlify.app/).
 
 ## Setup the environment
 
