@@ -68,4 +68,10 @@
     font-size: 60%;
     line-height: 30px;
   }
+
+  .header{
+    font-size: 20px;
+    line-height: 40px;
+    color: rgba(35, 49, 76, 0.6);
+  }
 }
