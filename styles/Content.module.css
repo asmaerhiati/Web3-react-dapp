@@ -1,5 +1,6 @@
 .content {
   width: 700px;
+  margin: 30px;
 }
 
 .header {
@@ -15,4 +16,19 @@
   line-height: 25px;
   color: rgba(35, 49, 76, 0.6);
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 750px) {
+  .content{
+    width: 300px;
+  }
+  
+  .header {
+    font-size: 30px;
+  }
+  
+  .paragraph {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
 }

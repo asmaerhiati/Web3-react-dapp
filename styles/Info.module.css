@@ -20,7 +20,7 @@
 .header {
   font-style: normal;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 40px;
   text-transform: capitalize;
   color: rgba(35, 49, 76, 0.6);
 }
@@ -28,4 +28,18 @@
 .value {
   font-style: normal;
   font-size: 30px;
+}
+
+@media screen and (max-width: 750px){
+  .infoContent {
+    display: grid;
+    justify-content: center;
+    grid-gap: 30px;
+  }
+
+  .value {
+    font-style: normal;
+    font-size: 20px;
+  }
+  
 }

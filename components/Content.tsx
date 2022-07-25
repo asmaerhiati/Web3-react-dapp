@@ -17,8 +17,10 @@ const Content = () => {
 
   return (
     <div className={contentStyles.content}>
+      <div className={contentStyles.HeadText}>
       <h1 className={contentStyles.header}>Hi!</h1>
       <p className={contentStyles.paragraph}>We are happy to see you again. </p>
+      </div>
       
       {active ? (
         <>

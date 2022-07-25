@@ -24,7 +24,7 @@
 .decoration3 {
   box-sizing: border-box;
   border: 2px solid rgba(109, 129, 254, 0.5);
-  border-radius: 100%;;
+  border-radius: 100%;
   width: 100px;
   height: 230px;
   position: relative;
@@ -43,4 +43,29 @@
 .decoration1 {
   right: -150px;
   bottom: -220px;
+}
+
+@media screen and (max-width: 750px) {
+  .accountDecoration {
+    display: none;
+  }
+
+  .accountFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 27px;
+    margin-bottom: 30px;
+  }
+
+  .accountHeader {
+    position: static;
+    top: none;
+    left: none;
+    transform: translate( 0, 0);
+    text-align: center;
+    font-size: 60%;
+    line-height: 30px;
+  }
 }

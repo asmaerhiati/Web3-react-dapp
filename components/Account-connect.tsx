@@ -5,7 +5,7 @@ const AccountConnect = (setAccount: any) => {
   return(
     <div className={AccountStyles.accountFrame}>
       <div className={AccountStyles.accountHeader}>
-      <h1 >Account</h1>
+      <h1 className={AccountStyles.header}>Account</h1>
       <p>
         {setAccount.setAccount.substr(0,20)}...{setAccount.setAccount.substr(-20,20)}
       </p>

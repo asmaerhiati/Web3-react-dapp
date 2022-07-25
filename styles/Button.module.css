@@ -18,3 +18,10 @@
   color: rgba(35, 49, 76, 0.7);
   cursor: pointer;
 }
+
+@media screen and (max-width: 750px) {
+
+.button{
+  margin-top: 30px;
+}
+}
